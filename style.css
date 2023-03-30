@@ -1,12 +1,8 @@
+/*Header CSS*/
 .name {
     float:left;
     color:black;
-}
-
-body{
-    background-color:grey;
-    max-width: 960px;
-    margin: 0 auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 header, footer {
@@ -20,26 +16,55 @@ Header{
     padding: 10px;
 }
 
-/*nav styling*/
+/*Text CSS*/
 
-.links {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #000000;
-  padding: 10px;
+p{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.links a{
-    text-decoration: none;
+h2{
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*body css*/
+
+body{
+    background-color:grey;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 
 main{
-min-height: 100vh;
-padding: 64px 24px 96px;
+    min-height: 100vh;
+    padding: 64px 24px 96px;
+    }
 
+/*nav styling*/
+
+nav {
+  display: flex;
+  justify-content:space-between;
+  align-items:end;
+  color: #000000;
+  padding: 10px;
+}
+
+nav a{
+    text-decoration: underline;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 
@@ -59,8 +84,21 @@ footer{
 .quote {
     font-family: serif;
     font-weight: 100;
-    color: white;
+    color: rgb(13, 10, 10);
     font-size: 40px;
     text-align: center;
     margin-top:50px;
   }
+
+
+/*background box*/
+
+.background-box{
+    background-color: #ffffff;
+   padding: 1px;
+}
+
+section{
+    background-color: #ffffff;
+}
+
