@@ -35,6 +35,7 @@ h2{
 h1{
     color: rgb(0, 0, 0);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 
 /*body css*/
@@ -201,4 +202,14 @@ button[type="submit"]:hover {
     padding: 10px;
     text-align: center;
     font-size: 30px;
+  }
+
+
+  /*Thank you page text css*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
   }

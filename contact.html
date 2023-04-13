@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page</title>
     <link rel="stylesheet" href="style.css">
+    <script src="redirect.js"></script>
 </head>
 <body>
     <header>
@@ -24,7 +25,7 @@
     </div>
 
     <div class="item2">
-    <form id="contactpage">
+    <form id="contactpage" onsubmit="changeFormAction()">
         <label for="name">Name</label>
         <input type="text" id="name" name="name"><br><br>
         <label for="email">Email</label>
