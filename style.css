@@ -85,12 +85,18 @@ footer{
 .quote {
     font-family: serif;
     font-weight: 100;
-    color: rgb(13, 10, 10);
+    color: rgb(0, 0, 0);
     font-size: 40px;
     text-align: center;
     margin-top:50px;
-  }
 
+    background-color: rgb(255, 255, 255);
+    transition: background-color 1s ease-in-out;
+}
+
+div:hover {
+    background-color: #85bb65;
+  }
 
 /*background box*/
 
@@ -181,4 +187,7 @@ button[type="submit"]:hover {
       width: auto;
     }
   }
+
+
+  /*END media queries styling*/
   
