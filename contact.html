@@ -5,8 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <span class="name">Erik Gutierrez</span>
+        <nav class="links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a class="active" href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
     <form id="contactpage">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name"><br><br>
@@ -14,10 +25,11 @@
         <input type="email" id="email" name="email"><br><br>
         <label for="message">Message:</label>
         <textarea name="message" id="message"></textarea><br><br>
-        <button type="submit" id="submitbtn">Submit</button>
+        <button type="submit" id="submitBtn">Submit</button>
     </form>
-    
-
-
+   
+    <footer>
+        <a href="https://facebook.com"><img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="facebook" width="25"></a>
+     </footer>
 </body>
 </html>
